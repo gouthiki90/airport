@@ -38,6 +38,7 @@ public class DownloadWheather {
             }
             return result;
         } catch (Exception e) {
+            e.printStackTrace();
             System.out.println("날씨 정보를 불러오지 못 했습니다.");
         }
         return null;
